@@ -1,0 +1,32 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "this is a backend of a chat created in node and graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "node-graphql-server",
+    "nodejs",
+    "graphql",
+    "chat with graphql and nodejs using apollo server",
+    "backend in nodejs and graphql"
+  ],
+  "author": "psychology simango",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "apollo-server": "^3.13.0",
+    "bcrypt": "^5.1.1",
+    "graphql": "^16.9.0",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
